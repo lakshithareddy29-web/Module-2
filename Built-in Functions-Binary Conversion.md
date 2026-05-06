@@ -10,8 +10,18 @@ To write a Python program to convert the number **16** into its **binary represe
 
 ## 🧾 Program
 
-Add Code Here
+
+
+num = 16
+binary = bin(num)
+
+print("Decimal number:", num)
+print("Binary representation:", binary)
 
 ## Output
-
+Decimal number: 16
+Binary representation: 0b10000
 ## Result
+The built-in function bin() converts a decimal number into binary.
+The prefix 0b indicates that the number is in binary format.
+So, 16 in binary = 10000 ✅
